@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	background-color: #2F2F2F;
+}
+p {
+	font-family: 'roboto', sans-serif;
+	font-size: 1.35em;
+	color: #F7F7F7;
+}
+
+h2 {
+	font-family: 'Raleway', Arial , sans-serif;
+	color: #F7F7F7;
+	font-weight: 400;
+	font-size: 25px;
+}
+/* haut de page */
+
+#haut_page {
+	text-align: center;
+	background: #2F2F2F;
+}
+
+#text {
+	padding-top: 8%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color:  #F7F7F7;
+}
+
+#text h1 {
+	font-family: 'Raleway', Arial , sans-serif;
+	font-size: 3vw;
+	font-weight: 400;
+}
+
+.orange {
+	color: #fe771b;
+	display: inline-block;
+	font-weight: 300;
+}
+
+.rouge {
+	color: #e93639;
+	display: inline-block;
+	font-weight: 300;
+}
+
+/* CONTAINER */ 
+
+/*ROUGE*/
+
+.container {
+	margin: 0
+}
+
+.redcontainer {
+	display: inline-block;
+	text-align: center;
+	background: url(../../img/creation/cabriolet_animalia_clark.jpg);
+	height: 50vh;
+	margin-bottom: 1%;
+	
+}
+
+	
+
+.blocphoto  {
+	
+	float: left;
+		
+}
+
+.blocphoto img {
+	height: 50vh;
+	width: auto;
+}
+
+
+.bloctext {
+	background-color:rgba(55,7,7,0.50);
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 30%;
+	padding-right: 1.5%;
+	margin-top: 13vh;
+}
+
+
+.orangecontainer {
+	display: inline-block;
+	text-align: center;
+	background: url(../../img/creation/harlequin_velour_tissus_berceuse.jpg);
+	height: 50vh;
+	margin-bottom: 1%;
+	
+}
+
+.orangecontainer img {
+	float: right;
+	height: 50vh;
+	
+}
+
+.bloctext2 {
+	background-color:rgba(55,7,7,0.50);
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1.5%;
+	padding-right: 30%;
+	margin-top: 10vh;
+}
+
+
+
+.redcontainer2 {
+	display: inline-block;
+	text-align: center;
+	background: url(../../img/creation/toile_de_jute.jpg);
+	height: 50vh;
+	margin-bottom: 1%;
+	
+}
+
+.orangecontainer2 {
+	
+	display: inline-block;
+	text-align: center;
+	background: url(../../img/creation/psychelique_tissus_laine.jpg);
+	height: 50vh;
+	margin-bottom: 1%;
+	
+}
+
+.orangecontainer2 img {
+	float: right;
+	height: 50vh;
+	
+}
+
+.redcontainer3 {
+	display: inline-block;
+	text-align: center;
+	background: url(../../img/creation/fond_pouf.jpg);
+	height: 50vh;
+	
+}
+
+/* FOOTer */
+.footer {
+	background-color: #030303;
+	height: 8vh;
+	color: #ffeadb;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 700;
+}
+.contact {
+	display: inline-block;
+	padding-top: 1.5%;
+	padding-right: 1%;
+}
+
+.contact2 {
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	
+}
+
+#mentions {
+	display: inline-block;
+	padding-left: 40%;
+	font-weight: 300;
+}
+/* Reponsive */ 
+@media (max-width:640px) {
+
+
+	.footer {
+		font-size: 3vw;
+	}
+	.contact2 {
+	
+	padding-left: 5%;
+	padding-right: 1%;
+	
+	}
+	#text h1 {
+	margin-bottom:0;
+	font-size: 5vw;
+	font-weight: 400;
+	
+	}
+	
+	
+	
+	
+	
+}
+
+@media (max-width:1024px){
+	.orangecontainer2 img {
+	float: none;
+	height: 50vh;
+	margin-bottom: 0;
+	
+}
+	.blocphoto  {
+	
+	float: none;
+		
+}
+	.orangecontainer img {
+	float: none;
+	height: 50vh;
+	margin-bottom: 0;
+	
+}
+	.orangecontainer3 img {
+	float: none;
+	height: 50vh;
+	margin-bottom: 0;
+		
+}
+
+	
+	.redcontainer {
+		margin-bottom: 0;
+	}
+	.redcontainer2 {
+		margin-bottom: 0;
+	}
+	.bloctext {
+		padding: inherit;
+		margin: inherit;
+	
+	}
+	
+	.bloctext2 {
+		padding: inherit;
+		margin: inherit;
+		margin: 0;
+	}
+	
+	.footer {
+		margin-top: 5%;
+	}
+}
+	
