@@ -4,4 +4,11 @@ RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP:X-Forwarded-Port} 80
 RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
 Header set Strict-Transport-Security "max-age=15811200; includeSubDomains; preload"
+
+
