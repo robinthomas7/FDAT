@@ -29,7 +29,11 @@ h1 {
 #titre_mentions {
 	text-align: center;
 }
-
+/* contenu */
+#container {
+	margin-left: 2%;
+	margin-bottom: 10%
+}
 /* FOOTer */
 .footer {
 	background-color: #030303;
@@ -39,6 +43,7 @@ h1 {
 	font-size: 18px;
 	text-align: center;
 	font-weight: 700;
+	text-decoration: none;
 }
 .contact {
 	display: inline-block;
@@ -59,10 +64,12 @@ h1 {
 	font-weight: 300;
 }
 
-#container {
-	margin-left: 2%;
-	margin-bottom: 10%
+#mentions a {
+	text-decoration: none;
+	color: inherit;
 }
+
+
 /* Reponsive */ 
 @media (max-width:640px) {
 

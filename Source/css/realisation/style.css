@@ -124,6 +124,11 @@ body {
 	font-weight: 300;
 }
 
+#mentions a {
+	text-decoration: none;
+	color: inherit;
+}
+
 
 /* RESPONSIVE */ 
 @media (max-width:640px) {

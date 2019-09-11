@@ -144,6 +144,13 @@ p {
 	padding-left: 40%;
 	font-weight: 300;
 }
+
+#mentions a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
 /* responsive */
 @media (max-width:640px) {
 	body {
