@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /https://www.lesfauteuilsdagnest.com/mentions_legales.html/
+noindex:  /https://www.lesfauteuilsdagnest.com/mentions_legales.html/
+
+Sitemap: https://www.lesfauteuilsdagnest.com/sitemap.xml
